@@ -64,7 +64,7 @@ Medify/
     streamlit run chatbot.py
     Open your browser at http://localhost:8501 to chat with Medify.
 
-##⚠️ Disclaimers
+ ## ⚠️ Disclaimers
 
       This chatbot is not a replacement for a licensed healthcare professional.
     
