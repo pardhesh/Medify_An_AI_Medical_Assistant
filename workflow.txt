@@ -1,0 +1,9 @@
+medical_docs/ ──▶ 1_build_docs.py ──▶ split_chunks.pkl
+                                ↓
+                    2_embed_store.py ──▶ chroma_db/
+                                        ↓
+                           3_chatbot_app.py (Streamlit)
+                                 ├─ loads Chroma DB
+                                 ├─ loads HuggingFace Embeddings
+                                 ├─ initializes ChatGroq
+                                 └─ handles chat + message history
