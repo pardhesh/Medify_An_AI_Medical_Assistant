@@ -79,7 +79,6 @@ chat_with_history = RunnableWithMessageHistory(
 st.title("🩺 Medify - Your Medical Assistant")
 
 
-
 session_id ="user-session"
 user_input= st.text_input("Enter your medical question")
 
