@@ -6,6 +6,8 @@ faiss-cpu
 streamlit
 langchain_groq
 langchain_chroma
-chromadb
+langchain_huggingface
+langchain-text-splitters
+sentence-transformers
 pypdf
-langchain-huggingface
+
