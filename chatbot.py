@@ -14,7 +14,7 @@ load_dotenv()
 from langchain.vectorstores import FAISS
 
 load_dotenv()
-groq_api = os.getenv("GROQ_API")
+groq_api = st.secrets["GROQ_API"]
 embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
 vectorstore = FAISS.load_local("faiss_db",embedding_model,allow_dangerous_deserialization=True)
@@ -78,7 +78,7 @@ chat_with_history = RunnableWithMessageHistory(
 # UI
 st.title("🩺 Medify - Your Medical Assistant")
 
-st.secrets["GROQ_API"] = groq_api
+
 
 session_id ="user-session"
 user_input= st.text_input("Enter your medical question")
