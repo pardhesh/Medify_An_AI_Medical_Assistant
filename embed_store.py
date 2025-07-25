@@ -9,7 +9,7 @@ load_dotenv()
 with open("split_chunks.pkl", "rb") as f:
     chunks = pickle.load(f)
 
-os.environ["HF_TOKEN"]= os.getenv("HF_TOKEN")
+
 embedding_model= HuggingFaceEmbeddings(model_name= "all-MiniLM-L6-v2")
 
 

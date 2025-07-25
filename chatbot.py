@@ -78,6 +78,8 @@ chat_with_history = RunnableWithMessageHistory(
 # UI
 st.title("🩺 Medify - Your Medical Assistant")
 
+st.secrets["GROQ_API"]
+
 session_id ="user-session"
 user_input= st.text_input("Enter your medical question")
 
