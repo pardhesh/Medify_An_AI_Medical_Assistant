@@ -1,7 +1,8 @@
 # 🩺 Medify – Your AI Medical Assistant
 
 Medify is a privacy-respecting, PDF-aware medical chatbot that answers healthcare-related questions based on uploaded medical documents. It uses LangChain with FAISS vector store, HuggingFace embeddings, and a Groq-hosted LLM to provide informed responses — while maintaining chat history context.
-
+## Live Link
+https://medify-ai-assistant.streamlit.app/
 ---
 
 ## 🚀 Features
@@ -64,10 +65,7 @@ Medify/
     streamlit run chatbot.py
     Open your browser at http://localhost:8501 to chat with Medify.
 
-## Live Link
-    https://medify-ai-assistant.streamlit.app/
-
- ## ⚠️ Disclaimers
+ ## ⚠️Disclaimers
 
       This chatbot is not a replacement for a licensed healthcare professional.
     
